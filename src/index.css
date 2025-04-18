@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #000;
+  background-image: url('https://i.imgur.com/yPhkPp3.gif');
+  background-repeat: repeat;
+  background-size: 180px;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+textarea, input, button {
+  font-family: 'Inter', sans-serif;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-size: 120px;
+  }
+}
